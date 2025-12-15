@@ -1,6 +1,8 @@
 # KickStarter-Sql-Analysis
+---
 
 ## Table of Contents
+---
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
@@ -12,27 +14,29 @@
 - [Limitations](#limitations)
   
 ## Project Overview
+---
 This project analyses historical KickStarter campaign data to identify the key factors that influence projects success and failure. Using SQL in Microsoft SQL Server, I explored different trends across categories,countries, funding goals, backers, countries and campaign duration to uncover patterns that drive crowdfunding outcomes.
 
 ## Data Sources
-
+---
 The dataset used is the Kickstarter Projects dataset (2018) from Kaggle, containing over 375,000 campaign across multiple categories and countries.
   - [Dataset Link](https://www.kaggle.com/datasets/kemical/kickstarter-projects?select=ks-projects-201801.csv)
 
 ## Tools
-
+---
 - Excel (Data cleaning)
 - SQL Server (Data Analysis)
 -  PowerBi(Reports & Dashboard creation)
 
 ## Data Cleaning/Preparation
-
+---
 In the initial data preparation phase, we performed the following tasks:
   1. Data loading and inspection
   2. Handling missing values
   3. Data cleaning and formatting.
 
 ## Exploratory Data Analysis
+---
 EDA involved exploring the sales data to answer  key questions such as:
 
 - Projects by state distribution
@@ -45,6 +49,7 @@ EDA involved exploring the sales data to answer  key questions such as:
 - How campaign duration impacts on success rate
 
 ## Data Analysis
+---
 
 Include some interesting code/features worked with
 
@@ -212,6 +217,7 @@ ORDER BY Success_rate DESC
 ```
 
 ## Results and Findings
+---
 - Most KickStater campaign fail; Only about one-third succeed
 -  Creative categories(Theater, Music, Dance) show the highest success rate
 -  Lower funding goals significantly increase the likelihood of success
@@ -219,7 +225,7 @@ ORDER BY Success_rate DESC
 -  Successful projects attract far more backers than failed campaigns
 
 ## Recommendations
-
+---
 - Creators should set realistic funding goals unless they have an already strong and established audience
 - Campaign should run for approximately 30 days to perform best
 - Creators should focus on early promotion and community buildimg to generate momentum in the first few days
